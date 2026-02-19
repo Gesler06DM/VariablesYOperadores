@@ -147,6 +147,13 @@ public class Main {
          
          System.out.println("Verificacion de accseso");
          
+         String usuarioCorrecto = "asmin";
+         string ContrasenaCorrecta = "123456";
+         
+         System.out.print("Ingrese el Usuario");
+         String usuario = entrada.nxt();
+         
+         
           
         
         
