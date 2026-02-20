@@ -142,25 +142,28 @@ public class Main {
            }
        
          //MMMMMMMMMMMMMMMMMMMMMM
-         //VERIFICACION DE ACCESO
+         //VERIFICACION DE ACCES
          //WWWWWWWWWWWWWWWWWWWWWW
          
          System.out.println("Verificacion de accseso");
          
          String usuarioCorrecto = "asmin";
-         string ContrasenaCorrecta = "123456";
+         String contrasenaCorrecta = "123456";
          
          System.out.print("Ingrese el Usuario");
-         String usuario = entrada.nxt();
+         String usuario = entrada.next();
+         System.out.print("Ingrese la contraseña");
+         String contrasena = entrada.next();
          
-         
-          
+         if (usuario==(usuarioCorrecto)&& contrasena==(contrasenaCorrecta))	{
+        	 System.out.println("Acceso consedido");
+         }
+         else if (usuario==(usuarioCorrecto)) {
+        	 System.out.println("Contraseña Incorrecta");
+         }
+         else {
+        	 System.out.println("Usuario Incorreto prueba de nuevo");
+         }
         
-        
-        
-        
-        
-        
-		
 	}
 }
